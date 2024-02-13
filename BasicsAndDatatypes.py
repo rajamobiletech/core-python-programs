@@ -8,7 +8,7 @@ print("Raja"+ " " + "Duraisamy")
 print("Raja said \"Hi\"")
 
 #F-Strings
-feel = "Like"
+feel = "hate"
 print(f"I {feel} you")
 
 #Converting Data Types
@@ -21,6 +21,8 @@ print(tempFloat)
 numStr = "46"
 numFl = float(numStr)
 print(float(numStr))
+# numStr = "45"
+# print(numStr)
 
 #Checking Data Types
 pi = 3.1487
@@ -28,4 +30,5 @@ print(type(pi))
 
 #variables
 #camelCase Variable name
+
 feelMyLove = "Love"
