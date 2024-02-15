@@ -68,5 +68,5 @@ def sub(x, y):
     return x-y
 
 c = sub(23,7)
-c += 5;
+c += 5
 print(c)
