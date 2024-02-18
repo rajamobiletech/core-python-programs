@@ -34,7 +34,15 @@ print("===========")
 for _ in range(0,51,5):
     print("paint") 
 
+print("===========")
+
 count = 5
 while count > 0:
    print(count)
    count -= 1
+
+print("===========")
+for num in range(5,0,-1):
+    print(num) 
+
+print("===========")
