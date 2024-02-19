@@ -19,8 +19,10 @@ print(tempFloat)
 
 #Converting Data Types2
 numStr = "46"
-numFl = float(numStr)
-print(float(numStr))
+print(type(numStr))
+numFl = int(numStr)
+print(numFl)
+print(type(numFl))
 # numStr = "45"
 # print(numStr)
 
@@ -32,3 +34,7 @@ print(type(pi))
 #camelCase Variable name
 
 feelMyLove = "Love"
+
+name_raja = "Raja"
+
+num = 5%0
