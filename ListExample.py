@@ -20,8 +20,11 @@ print("femaleList={0}".format(femaleList))
 print(femaleList[1])
 print(maleList[-1])
 
-print(pythonList[:-3])
+print("==================")
 
+print(pythonList[-1])
+
+print(pythonList[-5:-3])
 
 
 
