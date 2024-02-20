@@ -1,5 +1,7 @@
 
-from random import randint
+# from random import randint
+import random
+from random import *
 import math
 
 value = randint(1,100)
