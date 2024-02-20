@@ -51,6 +51,58 @@ for _ in range(count):
 
 print(list2)
 
+print("________________________________________________________________________________________________________________")
+#another example of list and list methods:-
+
+herolist=["ntr","alluarjun","maheshbabu","prabhas","surya","ramcharan","varuntej","pavankalyan","balayya","varuntej",]
+
+herolist.append("kalyanram")
+
+herolist.pop(6)
+
+herolist.remove("varuntej")
+
+herolist.remove("maheshbabu")
+
+herolist.insert(1,"maheshbabu")
+
+
+herolist.pop(6)
+
+herolist.extend(["nithin","varuntej","nani"])
+
+heroinlist=["samantha","kajal","poojahegde","saipallavi","rashikhanna"]
+
+heroinlist.pop(1)
+
+heroinlist.pop(0)
+
+heroinlist.insert(0,"samantha")
+
+heroinlist.extend(["zoya","keerthisuresh","kritisanon","kiaraadvani"])
+
+heroinlist.pop(4)
+ 
+heroinlist.pop(-2)
+
+movieactores=herolist+heroinlist
+
+movieactores .append("tamanna")
+
+
+movieactores.insert(3,"varuntej")
+
+movieactores.sort()
+
+movieactores.reverse()
+
+movieactores.reverse()
+
+print(movieactores)
+
+movieactores.remove()
+
+ 
 
 
 
