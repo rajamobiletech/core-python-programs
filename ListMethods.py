@@ -100,12 +100,29 @@ movieactores.reverse()
 
 print(movieactores)
 
-movieactores.remove()
-
+print("============================================================================================")
  
-
-
-
+list1=[1,3,2,5,4,6,7,8,9]
+list2=["A","b","c","d","E","f"]
+list1.remove(1)
+print(list1)
+list2.remove("c")
+print(list2)
+list1.insert(0,1)
+print(list1)
+list2.insert(2,"c")
+print(list2)
+list1.pop(8)
+list1.pop(7)
+list1.pop(6)
+print(list1)
+list3=list2+list1
+print(list3)
+list1.sort()
+print(list1)
+list3.extend(["g","h","i"])
+list3.reverse()
+print(list3)
 
 
 
