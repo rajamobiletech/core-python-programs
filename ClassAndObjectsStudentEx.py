@@ -23,6 +23,30 @@ print("_________________________________________________________________________
 #Class: A class is defined using the class keyword followed by the class name. 
 #It serves as a template for creating objects.
 
+#ex1:-
+class school:
+    name = ""
+    phnumber = ""
+    adharno = ""
+    marks = ""
+    def __init__(self,name,phnumber,adharno,marks):
+        self.name = name
+        self.phnumber = phnumber
+        self.adharno = adharno
+        self.marks = marks
+    def an(self):
+        return self.name +" "+self.phnumber +" "+self.adharno +" "+ self.marks
+     
+a=school("balayya",  "xxxxxxxxxx",   "25461xxxxxx",   "70")
+print(a.an())
+b=school("hanumanth",   "89133333333",   "xxxxxxxxxxx",   "83")
+print(b.an()) 
+c=school("tarak","xxxxxxxxxx","484654654684","51")
+print(c.an())
+
+
+
+#ex2:-
 class room:
 
     firstroom = ""
