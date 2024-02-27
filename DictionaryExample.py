@@ -73,3 +73,11 @@ print(a)
 print(b)
 
 print(a.update(b))
+
+
+
+for k, v in teluguDic.items():
+    print(f"Key={k}, Value={v}")
+
+
+print(teluguDic.values())
