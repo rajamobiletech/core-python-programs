@@ -33,6 +33,9 @@ for k, v in a.items():
     b.setdefault(v, k)
 print(b)
 
+b.update({'World':'Hello1'})
+print(b)
+
 c = {v: k for k , v in a.items()}
 
 print(c)
