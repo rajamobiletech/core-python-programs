@@ -100,7 +100,7 @@ from string import Template
 lang = input("Enter your language:")
 classNo = int(input("Enter your class Number:"))
 
-t = Template("You are studing $language in class no $class Number")
+t = Template("You are studing $language in class no $classNumber")
 str = t.substitute(language=lang, classNumber = classNo)
 print(str)
 
