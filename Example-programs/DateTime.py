@@ -4,9 +4,9 @@ import datetime
 currentDateTime = datetime.datetime(2024, 3, 2, 10, 40, 46)
 print(currentDateTime)
 
+
 currentTime = datetime.time(9, 40, 23, +530)
 print(currentTime)
-
 
 
 print(datetime.datetime.now())
@@ -34,6 +34,8 @@ now = datetime.datetime.now()
 
 t = now.strftime("%H:%M:%S")
 print("Time:", t)
+
+print("______________________________________________________________")
 
 s1 = now.strftime("%m/%d/%Y, %H:%M:%S")
 # mm/dd/YY H:M:S format
@@ -64,3 +66,20 @@ print("NY:", datetime_NY.strftime("%m/%d/%Y, %H:%M:%S"))
 tz_London = pytz.timezone('Europe/London')
 datetime_London = datetime.datetime.now(tz_London)
 print("London:", datetime_London.strftime("%m/%d/%Y, %H:%M:%S"))
+
+#calender :---
+#first import calendar :-
+import calendar
+
+#assign a variable which "year" you want:- 
+year=2024
+
+#assign a variable "month"
+month=3
+
+#print the year and month
+print(calendar.month(year,month))
+
+#print whole year:-
+year=2024
+print(calendar.calendar(year))
